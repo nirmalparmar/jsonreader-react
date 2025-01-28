@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.jsoneditor{
+  border-color: #0f172a !important;
+}
+.jsoneditor-menu{
+  background-color: #011e3a !important;
+  border-color: #0f172a !important;
+}
+.jsoneditor-statusbar{
+  background-color: #011e3a !important;
+  border-color: #0f172a !important;
+  color: #b0b0b0 !important;
+  text-align: left;
+}
+.jsoneditor-poweredBy{
+  display: none;
+}
+.btn{
+  padding: 10px 15px;
+  background: #121212;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  justify-content: center;
+}
+
+.btn:hover{
+  background: #222;
+}
+
+.delete-marker{
+  position: absolute;
+  background-color: #dc26261e;
+}
+.ace_dark .delete-marker{
+  background-color: #ff000039;
+}
+.new-marker{
+  position: absolute;
+  background-color: #00ff801a;
+}
+.ace_dark .new-marker{
+  background-color: #00ff8037;
+}
+.replace-marker{
+  position: absolute;
+  background-color: #0ea4e928;
+}
+.ace_dark .replace-marker{
+  background-color: #0ea4e982;
+}

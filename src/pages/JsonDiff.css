@@ -1,0 +1,28 @@
+.diff-cont{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+.diff-cont.diff-fullscreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    margin-top: 0;
+}
+.editor-toolbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    /* margin-bottom: 10px; */
+    background-color: #0f172b;
+    padding-left: 10px;
+    align-items: center;
+}
+.full-screen{
+    margin-left: auto;
+    margin-right: 10px;
+}

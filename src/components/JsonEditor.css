@@ -1,0 +1,56 @@
+/* .json-editor-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .jsoneditor {
+    width: 100%;
+    height: 100%;
+  }
+  .main-cont{
+    height: 650px;
+    width: 100%;
+  }
+  .main-cont.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1001;
+  }
+  .editor-toolbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: #0f172b;
+    padding-left: 10px;
+    align-items: center;
+  }
+  .full-screen{
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .text-btn {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+  }
+  
+  .icon-btn {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   */
