@@ -15,7 +15,7 @@ const Navbar = () => {
     { name: "JSON to Table", href: "/json-to-table" },
     { name: "JSON FORMATTER", href: "/json-formatter" },
     { name: "JSON VALIDATOR", href: "/json-validator" },
-    { name: "Contact", href: "/contact" }
+    // { name: "Contact", href: "/contact" }
   ];
 
   const toggleDrawer = () => {

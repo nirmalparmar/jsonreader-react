@@ -1,0 +1,57 @@
+/* Contact.css */
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+  
+  .contact-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  .ant-input,
+  .ant-input-textarea {
+    border-radius: 4px;
+  }
+  
+  .ant-input:focus,
+  .ant-input-focused,
+  .ant-input-textarea:focus,
+  .ant-input-textarea-focused {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  

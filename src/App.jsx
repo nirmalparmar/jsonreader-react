@@ -15,6 +15,12 @@ import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/Privacy';
 import './App.css';
 import JsonToXml from './pages/JsonToXml';
+import AboutPage from './pages/About';
+import Disclaimer from './pages/Disclaimer';
+import BlogOnJson from './pages/blogs/BlogOnJson';
+import BlogOnJsonDesign from './pages/blogs/BlogOnJsonDesign';
+import BlogHomePage from './pages/blogs/BlogHomepage';
+import BlogOnJsonWebDevelopment from './pages/blogs/BlogJsonInweb';
 
 const { Content } = Layout;
 
@@ -38,10 +44,16 @@ const App = () => {
               <Route path="/python-dict-to-json" element={<PythonDictToJson />} />
               <Route path="/json-to-table" element={<JsonTableViewer />} />
               <Route path="/text-compare" element={<TextCompare />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/p/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/p/contact" element={<Contact />} />
               <Route path='/json-to-xml' element={<JsonToXml />} />
               <Route path='/search' element={<Homepage />} />
+              <Route path='/p/about' element={<AboutPage />} />
+              <Route path='/p/disclaimer' element={<Disclaimer />} />
+              <Route path='/b/json-data-guide' element={<BlogOnJson />} />
+              <Route path='/b/design-json-structure' element={<BlogOnJsonDesign />} />
+              <Route path='/b/json-in-web-development' element={<BlogOnJsonWebDevelopment />} />
+              <Route path='/blogs' element={<BlogHomePage />} />
               {/* Redirect any other route to the homepage */}
               <Route path="*" element={<Navigate to='/' />} />
             </Routes>

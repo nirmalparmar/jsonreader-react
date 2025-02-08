@@ -72,6 +72,7 @@ const MyFooter = () => {
                 <li><a href="https://www.jsonreader.com/json-to-tabler" target="_blank" rel="noopener noreferrer">JSON To Table</a></li>
                 <li><a href="https://www.jsonreader.com/json-minify" target="_blank" rel="noopener noreferrer">JSON Minify</a></li>
                 <li><a href="https://www.jsonreader.com/text-compare" target="_blank" rel="noopener noreferrer">Compare Text</a></li>
+                <li><a href="https://www.jsonreader.com/blogs" target="_blank" rel="noopener noreferrer">Blogs</a></li>
               </ul>
             </Col>
 
@@ -88,7 +89,10 @@ const MyFooter = () => {
             <Col xs={24} sm={8} md={6} className="footer-column" style={{ display: 'flex', flexDirection: 'column' }}>
               <Title level={5} className="footer-column-title" style={{ color: '#fff' }}>Legal</Title>
               <ul className="footer-column-list" style={{ paddingLeft: 0 }}>
-                <li><a href="https://www.jsonreader.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                <li><a href="https://www.jsonreader.com/p/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                <li><a href="https://www.jsonreader.com/p/contact" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                <li><a href="https://www.jsonreader.com/p/about" target="_blank" rel="noopener noreferrer">About</a></li>
+                <li><a href="https://www.jsonreader.com/p/disclaimer" target="_blank" rel="noopener noreferrer">Disclaimer</a></li>
               </ul>
             </Col>
           </Row>
@@ -110,7 +114,8 @@ const MyFooter = () => {
             <Col xs={24} sm={12} md={12} className="footer-bottom">
               <Text style={{ fontSize: 14, color: '#bbb' }}>
                 © 2025 <a href="https://www.jsonreader.com/" target="_blank" rel="noopener noreferrer" className="footer-link">JsonReader™</a>. All Rights Reserved.{' '}
-                <a href="https://www.jsonreader.com/sitemap.xml" target="_blank" rel="noopener noreferrer" className="footer-link">Sitemap</a>
+                <a href="https://www.jsonreader.com/sitemap.xml" target="_blank" rel="noopener noreferrer" className="footer-link">Sitemap</a>{'  '}
+                <a href="https://www.jsonreader.com/p/contact" target="_blank" rel="noopener noreferrer" className="footer-link">Contact</a>
               </Text>
             </Col>
           </Row>
